@@ -53,13 +53,13 @@ export default function Skills() {
                 <img src={indigoCloseBracket} alt="closing bracket" />
             </div>
             {/* <div className="flex-col lg:flex lg:justify-evenly"> */}
-            <div className="flex justify-center flex-col lg:flex-row lg:justify-evenly">
+            <div className="flex flex-col mx-[4.5rem] lg:flex-row lg:justify-around">
 
                 <div>
-                    <div>
-                        <p className="text-4xl blue-gradient">Technical Languages</p>
+                    <div className="mb-10 mt-10">
+                        <p className="text-4xl blue-gradient x">Technical Languages</p>
                     </div>
-                    <div className="toolkit-list">
+                    <div className="toolkit-list text-xl m-2">
                         <ul>
                             <li>
                                 <img src={arrow} className="arrow" alt="bullet-point-arrow-style" />
@@ -89,10 +89,10 @@ export default function Skills() {
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div className="mb-10 mt-10">
                         <p className="text-4xl green-gradient">Libraries/Frameworks</p>
                     </div>
-                    <div className="toolkit-list">
+                    <div className="toolkit-list text-xl">
                         <ul>
                             <li>
                                 <img src={greenarrow} className="arrow" alt="bullet-point-arrow-style" />
@@ -122,40 +122,40 @@ export default function Skills() {
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div className="mb-10 mt-10">
                         <p className="text-4xl pink-gradient">Software, Tools, and Platforms</p>
-                        <div className="toolkit-list">
-                            <ul>
-                                <li>
-                                    <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
-                                    <p>VS Code</p>
-                                </li>
-                                <li>
-                                    <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
-                                    <p>Git/GitHub</p>
-                                </li>
-                                <li>
-                                    <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
-                                    <p>Figma</p>
-                                </li>
-                                <li>
-                                    <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
-                                    <p>Postman</p>
-                                </li>
-                                <li>
-                                    <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
-                                    <p>TailwindCSS</p>
-                                </li>
-                                <li>
-                                    <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
-                                    <p>Vercel</p>
-                                </li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div className="toolkit-list text-xl">
+                        <ul>
+                            <li>
+                                <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
+                                <p>VS Code</p>
+                            </li>
+                            <li>
+                                <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
+                                <p>Git/GitHub</p>
+                            </li>
+                            <li>
+                                <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
+                                <p>Figma</p>
+                            </li>
+                            <li>
+                                <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
+                                <p>Postman</p>
+                            </li>
+                            <li>
+                                <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
+                                <p>TailwindCSS</p>
+                            </li>
+                            <li>
+                                <img src={pinkarrow} className="arrow" alt="bullet-point-arrow-style" />
+                                <p>Vercel</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
-        </section>
+        </section >
     );
 }

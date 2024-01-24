@@ -45,7 +45,7 @@ function RightSide() {
 
   return (
     <div className="right-side">
-      {viewPortWidth > 640 && <img src={image} className="rounded-full mt-30 pt-6" alt="" />}
+      {viewPortWidth >= 1240 && <img src={image} className="rounded-full mt-30 pt-6" alt="" />}
     </div>
   );
 }
