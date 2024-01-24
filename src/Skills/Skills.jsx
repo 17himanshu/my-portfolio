@@ -90,7 +90,7 @@ export default function Skills() {
                 </div>
                 <div>
                     <div className="mb-10 mt-10">
-                        <p className="text-4xl green-gradient">Libraries/Frameworks</p>
+                        <p className="text-4xl green-gradient">Libraries /Frameworks</p>
                     </div>
                     <div className="toolkit-list text-xl">
                         <ul>
