@@ -4,7 +4,7 @@ import arrow from "../assets/brackets/arrow.svg";
 import useWindowDimensions from "../CustomHooks/useWindowDimensions";
 import Lottie from 'react-lottie';
 import animationData from '../assets/coding.json';
-import image from '../assets/hero.png';
+import image from '../assets/himpic.jpg';
 import { gsap } from "gsap";
 import { useLayoutEffect, useRef } from "react";
 
@@ -45,7 +45,7 @@ function RightSide() {
 
   return (
     <div className="right-side">
-      {viewPortWidth >= 1240 && <img src={image} className="rounded-full mt-30 pt-6" alt="" />}
+      {viewPortWidth >= 1240 && <img src={image} className="rounded-full mt-36 object-cover w-[400px] h-[400px]" alt="" />}
     </div>
   );
 }

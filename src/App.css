@@ -532,7 +532,7 @@
   /*--- About ---*/
   .about-wrapper {
     flex-direction: column;
-    gap: 100px;
+    column-gap: 100px;
   }
 
   .left-side-content {
@@ -548,6 +548,7 @@
 
   .left-side-content {
     text-align: center;
+    width: 40vw;
   }
 
   .socials-wrapper {
@@ -694,6 +695,15 @@
     border-radius: 24px;
     margin: 0rem;
   }
+
+  .skills .title-wrapper {
+    padding-top: 6rem;
+  }
+
+  .skills {
+    margin-top: -100px;
+    padding-top: auto;
+  }
 }
 
 @media (max-width: 640px) {
@@ -804,6 +814,10 @@
 
   .designs .title-wrapper {
     padding-top: 6rem;
+  }
+
+  .skills .title{
+    font-size: 65px;
   }
 
   .skills .title-wrapper {
