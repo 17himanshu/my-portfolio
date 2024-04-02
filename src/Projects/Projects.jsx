@@ -9,15 +9,28 @@ import LiveLink from "./Images/svg/LiveLink.svg";
 import petcare from "./Images/petcare.png";
 import bloodbank from "./Images/bloodbank.png"
 import metro from "./Images/metro.png"
-
+import apnidukaan from "./Images/apni-dukaan.png"
 import greenOpenBracket from "../assets/brackets/green-opening.svg";
 import greenCloseBracket from "../assets/brackets/green-closing.svg";
 import useWindowDimensions from "../CustomHooks/useWindowDimensions";
 
 import { gsap } from "gsap";
 import { useLayoutEffect } from "react";
+import { GitCompare } from "lucide-react";
 
 const projects = [
+  {
+    imagePath:apnidukaan,
+    projectName:"Apni  Dukaan",
+    projectText: "Shop Local, Shop Apni Dukaan ,A platform which is developed for small/local shops to sell online",
+    toolsUsed:["ReactJS","NodeJS","Express"],
+    LinkImage:[GithubImage,LiveLink],
+    Link:[
+      "https://github.com/17himanshu/Apni-Dukaan.git",
+      "https://apni-dukaan-seven.vercel.app"
+    ],
+    Live:"https://apni-dukaan-seven.vercel.app",
+  },
   {
     imagePath: petcare,
     projectName: "Pet Care",
