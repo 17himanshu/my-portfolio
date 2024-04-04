@@ -22,7 +22,7 @@ const projects = [
   {
     imagePath:apnidukaan,
     projectName:"Apni  Dukaan",
-    projectText: "Shop Local, Shop Apni Dukaan ,A platform which is developed for small/local shops to sell online",
+    projectText: "Shop Local, Shop Apni Dukaan, A platform which is developed for small/local shops to sell online",
     toolsUsed:["ReactJS","NodeJS","Express"],
     LinkImage:[GithubImage,LiveLink],
     Link:[

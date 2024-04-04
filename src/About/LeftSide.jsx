@@ -20,7 +20,7 @@ function Button({content,onClick}) {
 function LeftSide() {
 
   const takeToResume = () => {
-    const url = 'https://drive.google.com/file/d/1-0HPB0Qbossz0vWEk9WotX1QJrFtgj8h/view?usp=drive_link'; 
+    const url = 'https://drive.google.com/file/d/1Kyeb4vbUSgSvgNwqk3ooYqBEdGTReT8g/view?usp=sharing'; 
     window.open(url, '_blank');
   };
 
